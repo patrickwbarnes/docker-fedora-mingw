@@ -6,6 +6,7 @@ RUN dnf -y install \
   cppcheck \
   dos2unix \
   findutils \
+  flawfinder \
   gcovr \
   git \
   libxslt \
