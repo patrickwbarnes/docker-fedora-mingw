@@ -6,6 +6,7 @@ RUN dnf -y install \
   findutils \
   gcovr \
   git \
+  libxslt \
   make \
   mingw64-gcc-c++ \
   mingw64-windows-default-manifest \
