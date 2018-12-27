@@ -15,6 +15,7 @@ RUN dnf -y install \
   mingw64-windows-default-manifest \
   wine \
   xorg-x11-server-Xvfb \
+  xz \
  && dnf clean all
 
 RUN printf '\nexport WINEDEBUG=fixme-all\n' >> /root/.bashrc
