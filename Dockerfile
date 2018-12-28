@@ -14,6 +14,7 @@ RUN dnf -y install \
   make \
   mingw64-gcc-c++ \
   mingw64-windows-default-manifest \
+  pandoc \
   unzip \
   wine \
   xorg-x11-server-Xvfb \
