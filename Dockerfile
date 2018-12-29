@@ -16,6 +16,7 @@ RUN dnf -y install \
   mingw64-windows-default-manifest \
   pandoc \
   unzip \
+  upx \
   wine \
   xorg-x11-server-Xvfb \
   xz \
