@@ -32,7 +32,7 @@ RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc \
   zip \
  && dnf clean all
 
-ENV WINEDEBUG=fixme-all
+ENV WINEDEBUG=fixme-all POWERSHELL_TELEMETRY_OPTOUT=1
 
 # Initialize Wine environment during image build
 RUN printf '@EXIT' > /tmp/wine-noop.cmd \
